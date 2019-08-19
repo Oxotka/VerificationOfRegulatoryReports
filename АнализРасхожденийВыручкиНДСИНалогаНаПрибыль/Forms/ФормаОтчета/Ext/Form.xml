@@ -1,10 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandBarLocation>None</CommandBarLocation>
 	<ReportFormType>Main</ReportFormType>
 	<AutoShowState>Auto</AutoShowState>
-	<ReportResultViewMode>Auto</ReportResultViewMode>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -29,7 +28,7 @@
 			<Group>Horizontal</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<BackColor>0:b6be3fc0-323b-4460-9e37-911985c67a0f</BackColor>
+			<BackColor>style:БыстрыеОтборыФонГруппы</BackColor>
 			<ExtendedTooltip name="ГруппаБыстрыеОтборыExtendedTooltip" id="106"/>
 			<ChildItems>
 				<InputField name="Период" id="162">
@@ -127,6 +126,7 @@
 								<Button name="ПечатьСразу" id="28">
 									<Type>CommandBarButton</Type>
 									<Representation>Text</Representation>
+									<OnlyInAllActions>true</OnlyInAllActions>
 									<CommandName>Form.Item.Результат.StandardCommand.PrintImmediately</CommandName>
 									<Title>
 										<v8:item>
@@ -134,7 +134,6 @@
 											<v8:content>Печать</v8:content>
 										</v8:item>
 									</Title>
-									<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="ПечатьСразуExtendedTooltip" id="122"/>
 								</Button>
 								<Button name="Настройка" id="165">
@@ -152,7 +151,6 @@
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 								<xr:TransparentPixel x="11" y="8"/>
 							</Picture>
-							<FileDragMode>AsFile</FileDragMode>
 							<ContextMenu name="ДекорацияАвтоСуммаКонтекстноеМеню" id="103"/>
 							<ExtendedTooltip name="ДекорацияАвтоСуммаExtendedTooltip" id="123"/>
 						</PictureDecoration>
@@ -182,8 +180,8 @@
 							<ChildItems>
 								<Button name="СформироватьВсеДействия" id="156">
 									<Type>CommandBarButton</Type>
+									<OnlyInAllActions>false</OnlyInAllActions>
 									<CommandName>Form.Command.Сформировать</CommandName>
-									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="СформироватьВсеДействияРасширеннаяПодсказка" id="157"/>
 								</Button>
 								<Button name="ПечатьСразуВсеДействия" id="160">
@@ -199,8 +197,8 @@
 								</Button>
 								<Button name="НастройкаВсеДействия" id="169">
 									<Type>CommandBarButton</Type>
+									<OnlyInAllActions>false</OnlyInAllActions>
 									<CommandName>Form.Command.Настройка</CommandName>
-									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="НастройкаВсеДействияРасширеннаяПодсказка" id="170"/>
 								</Button>
 								<ButtonGroup name="ГруппаИзменитьФормуСправка" id="38">
@@ -221,8 +219,8 @@
 										<Button name="Справка" id="40">
 											<Type>CommandBarButton</Type>
 											<SkipOnInput>false</SkipOnInput>
+											<OnlyInAllActions>false</OnlyInAllActions>
 											<CommandName>Form.StandardCommand.Help</CommandName>
-											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="СправкаExtendedTooltip" id="132"/>
 										</Button>
 									</ChildItems>
@@ -241,7 +239,7 @@
 					<ContextMenu name="РезультатКонтекстноеМеню" id="43"/>
 					<ExtendedTooltip name="РезультатExtendedTooltip" id="134"/>
 					<Events>
-						<Event name="OnActivate">РезультатПриАктивизацииОбласти</Event>
+						<Event name="OnActivateArea">РезультатПриАктивизацииОбласти</Event>
 						<Event name="DetailProcessing">РезультатОбработкаРасшифровки</Event>
 					</Events>
 				</SpreadSheetDocumentField>
