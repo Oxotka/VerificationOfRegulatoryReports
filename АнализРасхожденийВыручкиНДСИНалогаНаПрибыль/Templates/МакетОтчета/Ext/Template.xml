@@ -159,6 +159,7 @@
 				<c>
 					<f>15</f>
 					<parameter>Показатель</parameter>
+					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
 			<c>
@@ -619,6 +620,7 @@
 		<width>61</width>
 		<horizontalAlignment>Justify</horizontalAlignment>
 		<fillType>Parameter</fillType>
+		<hyperLink>false</hyperLink>
 		<indent>0</indent>
 	</format>
 	<format>
