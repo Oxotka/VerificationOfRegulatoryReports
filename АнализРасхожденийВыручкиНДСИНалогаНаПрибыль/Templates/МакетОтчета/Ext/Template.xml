@@ -347,10 +347,28 @@
 			</c>
 		</row>
 	</rowsItem>
+	<rowsItem>
+		<index>24</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>28</f>
+					<parameter>Показатель</parameter>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>29</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>2</id>
-		<formatIndex>28</formatIndex>
+		<formatIndex>30</formatIndex>
 		<beginRow>1</beginRow>
 		<beginRowOffset>18</beginRowOffset>
 		<endRow>4</endRow>
@@ -367,7 +385,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>5</id>
-		<formatIndex>28</formatIndex>
+		<formatIndex>30</formatIndex>
 		<beginRow>14</beginRow>
 		<beginRowOffset>9</beginRowOffset>
 		<endRow>14</endRow>
@@ -383,8 +401,8 @@
 	</drawing>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>17</defaultFormatIndex>
-	<height>23</height>
-	<vgRows>23</vgRows>
+	<height>25</height>
+	<vgRows>25</vgRows>
 	<merge>
 		<r>1</r>
 		<c>1</c>
@@ -426,6 +444,16 @@
 	<merge>
 		<r>22</r>
 		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>24</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>24</r>
+		<c>3</c>
 		<w>1</w>
 	</merge>
 	<merge>
@@ -567,6 +595,16 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
+		<name>СтрокаНижнийУровеньКурсив</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>24</beginRow>
+			<endRow>24</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
 		<name>СтрокаНижнийУровеньСРисунком</name>
 		<area>
 			<type>Rows</type>
@@ -610,6 +648,7 @@
 	<font faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
 	<font faceName="Arial" height="10" bold="false" italic="false" underline="true" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="8" bold="false" italic="true" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
 		<width>15</width>
 	</format>
@@ -808,6 +847,24 @@
 		<protection>true</protection>
 		<hyperLink>true</hyperLink>
 		<indent>0</indent>
+	</format>
+	<format>
+		<font>5</font>
+		<border>0</border>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<indent>4</indent>
+	</format>
+	<format>
+		<font>2</font>
+		<border>0</border>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧН=-</v8:content>
+			</v8:item>
+		</format>
 	</format>
 	<format>
 		<drawingBorder>2</drawingBorder>
