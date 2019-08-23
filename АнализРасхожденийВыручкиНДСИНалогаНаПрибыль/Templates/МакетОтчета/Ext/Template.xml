@@ -259,6 +259,7 @@
 				<c>
 					<f>21</f>
 					<parameter>ЗначениеПоказателя</parameter>
+					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
 			<c>
@@ -821,6 +822,7 @@
 				<v8:content>ЧЦ=15; ЧДЦ=; ЧН=-</v8:content>
 			</v8:item>
 		</format>
+		<hyperLink>true</hyperLink>
 	</format>
 	<format>
 		<font>1</font>
