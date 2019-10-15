@@ -286,21 +286,21 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>20</f>
+					<f>24</f>
 					<parameter>Показатель</parameter>
 				</c>
 			</c>
 			<c>
 				<i>3</i>
 				<c>
-					<f>24</f>
+					<f>25</f>
 					<parameter>ЗначениеПоказателя</parameter>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>25</f>
+					<f>26</f>
 				</c>
 			</c>
 		</row>
@@ -311,7 +311,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>26</f>
+					<f>27</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -335,7 +335,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>27</f>
+					<f>28</f>
 					<parameter>Показатель</parameter>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
@@ -353,14 +353,14 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>28</f>
+					<f>29</f>
 					<parameter>Показатель</parameter>
 				</c>
 			</c>
 			<c>
 				<i>3</i>
 				<c>
-					<f>29</f>
+					<f>30</f>
 				</c>
 			</c>
 		</row>
@@ -368,7 +368,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>2</id>
-		<formatIndex>30</formatIndex>
+		<formatIndex>31</formatIndex>
 		<beginRow>1</beginRow>
 		<beginRowOffset>18</beginRowOffset>
 		<endRow>4</endRow>
@@ -385,7 +385,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>5</id>
-		<formatIndex>30</formatIndex>
+		<formatIndex>31</formatIndex>
 		<beginRow>14</beginRow>
 		<beginRowOffset>9</beginRowOffset>
 		<endRow>14</endRow>
@@ -707,7 +707,7 @@
 		<font>1</font>
 		<border>0</border>
 		<width>61</width>
-		<horizontalAlignment>Justify</horizontalAlignment>
+		<horizontalAlignment>Left</horizontalAlignment>
 		<fillType>Parameter</fillType>
 		<protection>false</protection>
 		<hyperLink>false</hyperLink>
@@ -733,7 +733,7 @@
 		<font>1</font>
 		<border>0</border>
 		<width>61</width>
-		<horizontalAlignment>Justify</horizontalAlignment>
+		<horizontalAlignment>Left</horizontalAlignment>
 		<fillType>Parameter</fillType>
 		<indent>2</indent>
 	</format>
@@ -753,7 +753,7 @@
 	<format>
 		<font>2</font>
 		<border>0</border>
-		<horizontalAlignment>Justify</horizontalAlignment>
+		<horizontalAlignment>Auto</horizontalAlignment>
 		<fillType>Parameter</fillType>
 		<indent>4</indent>
 	</format>
@@ -799,6 +799,13 @@
 				<v8:content>ЧЦ=15; ЧДЦ=; ЧН=-</v8:content>
 			</v8:item>
 		</format>
+	</format>
+	<format>
+		<font>2</font>
+		<border>0</border>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<indent>4</indent>
 	</format>
 	<format>
 		<leftBorder>1</leftBorder>
