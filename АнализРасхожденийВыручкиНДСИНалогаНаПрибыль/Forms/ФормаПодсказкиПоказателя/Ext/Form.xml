@@ -11,6 +11,12 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.Ясно</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Понятно</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаПонятноРасширеннаяПодсказка" id="5"/>
 			</Button>
 		</ChildItems>
@@ -23,14 +29,19 @@
 			<Title formatted="true">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>&lt;fontsize 11&gt;&lt;color #000000&gt;● надо как-то справку придумать про это поле. Т.к. у нас 2 типа периода - квартальный и накопительный&lt;/&gt;&lt;/&gt;
-● &lt;fontsize 10&gt;Квартальный считается как разница между приходом и расходом в регистре за квартал НДС реализация 0% (фактически - не подтвержденная за период реализация)&lt;/&gt;
-● &lt;fontsize 11&gt;Накопительный считается как разница между приходом и расходов в регистре с начала года&lt;/&gt;
-</v8:content>
+					<v8:content>&lt;fontsize 11&gt;&lt;b&gt;&lt;color #000000&gt;Правила расчета показателя:&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;fontsize 11&gt;&lt;color #000000&gt;
+
+● в &lt;/&gt;&lt;/&gt;&lt;fontsize 11&gt;&lt;b&gt;&lt;color #000000&gt;квартальных&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;fontsize 11&gt;&lt;color #000000&gt; периодах показатель считается как разница между реализацией и подтверждением по ставке 0% за квартал
+&lt;/&gt;&lt;/&gt;&lt;fontsize 11&gt;&lt;color #000000&gt;● в &lt;/&gt;&lt;/&gt;&lt;fontsize 11&gt;&lt;b&gt;&lt;color #000000&gt;накопительных&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;fontsize 11&gt;&lt;color #000000&gt; периодах показатель считается как разница между реализацией и подтверждением по ставке 0% с начала текущего года
+&lt;/&gt;&lt;/&gt;</v8:content>
 				</v8:item>
 			</Title>
 			<ContextMenu name="ПодсказкаКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="ПодсказкаРасширеннаяПодсказка" id="3"/>
+		</LabelDecoration>
+		<LabelDecoration name="Декорация1" id="6">
+			<ContextMenu name="Декорация1КонтекстноеМеню" id="7"/>
+			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="8"/>
 		</LabelDecoration>
 	</ChildItems>
 	<Attributes/>

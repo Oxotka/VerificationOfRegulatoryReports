@@ -934,6 +934,7 @@
 	</format>
 	<format>
 		<drawingBorder>2</drawingBorder>
+		<textColor>style:FieldSelectionBackColor</textColor>
 		<hyperLink>true</hyperLink>
 	</format>
 	<picture>
