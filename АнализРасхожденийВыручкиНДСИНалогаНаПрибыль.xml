@@ -35,6 +35,7 @@
 			<Form>ВыборПериодаНарастающимИтогом</Form>
 			<Form>ФормаАктуальныеДанные</Form>
 			<Form>ФормаРазница</Form>
+			<Form>ФормаПодсказкиПоказателя</Form>
 			<Template>МакетОтчета</Template>
 		</ChildObjects>
 	</ExternalReport>

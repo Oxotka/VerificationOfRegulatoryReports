@@ -365,6 +365,24 @@
 			</c>
 		</row>
 	</rowsItem>
+	<rowsItem>
+		<index>26</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>24</f>
+					<parameter>Показатель</parameter>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>30</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>2</id>
@@ -399,10 +417,28 @@
 		<zOrder>0</zOrder>
 		<pictureIndex>2</pictureIndex>
 	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>6</id>
+		<formatIndex>32</formatIndex>
+		<detailParameter>ПодсказкаПоказателя</detailParameter>
+		<beginRow>26</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>26</endRow>
+		<endRowOffset>36</endRowOffset>
+		<beginColumn>2</beginColumn>
+		<beginColumnOffset>489</beginColumnOffset>
+		<endColumn>2</endColumn>
+		<endColumnOffset>531</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>3</pictureIndex>
+	</drawing>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>17</defaultFormatIndex>
-	<height>25</height>
-	<vgRows>25</vgRows>
+	<height>28</height>
+	<vgRows>28</vgRows>
 	<merge>
 		<r>1</r>
 		<c>1</c>
@@ -453,6 +489,16 @@
 	</merge>
 	<merge>
 		<r>24</r>
+		<c>3</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>26</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>26</r>
 		<c>3</c>
 		<w>1</w>
 	</merge>
@@ -590,6 +636,16 @@
 			<type>Rows</type>
 			<beginRow>13</beginRow>
 			<endRow>13</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>СтрокаНижнийУровеньВопрос</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>26</beginRow>
+			<endRow>26</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -876,6 +932,11 @@
 	<format>
 		<drawingBorder>2</drawingBorder>
 	</format>
+	<format>
+		<drawingBorder>2</drawingBorder>
+		<textColor>style:FieldSelectionBackColor</textColor>
+		<hyperLink>true</hyperLink>
+	</format>
 	<picture>
 		<index>0</index>
 		<picture t="false">Qk06GwAAAAAAADoAAAAoAAAAMAAAADAAAAABABgAAAAAAAAbAAAAAAAAAAAAAAAA
@@ -1028,5 +1089,9 @@ zvPy8P//////////////////////////////////////////////////////////
 	<picture>
 		<index>1</index>
 		<picture ref="v8ui:Внимание16"/>
+	</picture>
+	<picture>
+		<index>2</index>
+		<picture ref="v8ui:Help"/>
 	</picture>
 </document>
