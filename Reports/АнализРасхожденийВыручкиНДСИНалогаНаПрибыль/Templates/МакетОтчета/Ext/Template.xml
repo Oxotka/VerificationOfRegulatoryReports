@@ -1,0 +1,1127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>10</size>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>1</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>2</index>
+			<column>
+				<formatIndex>3</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>3</index>
+			<column>
+				<formatIndex>4</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>4</index>
+			<column>
+				<formatIndex>5</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>7</index>
+			<column>
+				<formatIndex>6</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>8</index>
+			<column>
+				<formatIndex>7</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>9</index>
+			<column>
+				<formatIndex>8</formatIndex>
+			</column>
+		</columnsItem>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>1</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сверка данных регламентированных отчетов</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>2</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>3</index>
+		<row>
+			<c>
+				<i>2</i>
+				<c>
+					<f>10</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>[Организация][Период]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>4</index>
+		<indexTo>6</indexTo>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>7</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>12</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+					<parameter>ИмяПериода</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>8</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>14</f>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>14</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>9</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>15</f>
+					<parameter>Показатель</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<parameter>ЗначениеПоказателя</parameter>
+				</c>
+			</c>
+			<c>
+				<i>6</i>
+				<c>
+					<f>17</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>10</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>14</f>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>14</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>11</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>18</f>
+					<parameter>Показатель</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<parameter>ЗначениеПоказателя</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>12</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>14</f>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>14</f>
+					<tl/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>13</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>20</f>
+					<parameter>Показатель</parameter>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>21</f>
+					<parameter>ЗначениеПоказателя</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>14</index>
+		<row>
+			<c>
+				<i>3</i>
+				<c>
+					<f>22</f>
+					<parameter>ЗначениеПоказателя</parameter>
+					<detailParameter>Расшифровка</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>15</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>16</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>24</f>
+					<parameter>Показатель</parameter>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>25</f>
+					<parameter>ЗначениеПоказателя</parameter>
+					<detailParameter>Расшифровка</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>26</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>17</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>18</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>27</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>В указанном периоде нет данных</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>19</index>
+		<indexTo>21</indexTo>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>22</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>28</f>
+					<parameter>Показатель</parameter>
+					<detailParameter>Расшифровка</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>23</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>24</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>29</f>
+					<parameter>Показатель</parameter>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>30</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>25</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>26</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>24</f>
+					<parameter>Показатель</parameter>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>30</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>2</id>
+		<formatIndex>31</formatIndex>
+		<beginRow>1</beginRow>
+		<beginRowOffset>18</beginRowOffset>
+		<endRow>4</endRow>
+		<endRowOffset>21</endRowOffset>
+		<beginColumn>1</beginColumn>
+		<beginColumnOffset>9</beginColumnOffset>
+		<endColumn>1</endColumn>
+		<endColumnOffset>147</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>1</zOrder>
+		<pictureIndex>1</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>5</id>
+		<formatIndex>31</formatIndex>
+		<beginRow>14</beginRow>
+		<beginRowOffset>9</beginRowOffset>
+		<endRow>14</endRow>
+		<endRowOffset>45</endRowOffset>
+		<beginColumn>4</beginColumn>
+		<beginColumnOffset>12</beginColumnOffset>
+		<endColumn>4</endColumn>
+		<endColumnOffset>53</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Proportionally</pictureSize>
+		<zOrder>2</zOrder>
+		<pictureIndex>2</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>6</id>
+		<formatIndex>32</formatIndex>
+		<detailParameter>ПодсказкаПоказателя</detailParameter>
+		<beginRow>26</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>26</endRow>
+		<endRowOffset>36</endRowOffset>
+		<beginColumn>2</beginColumn>
+		<beginColumnOffset>489</beginColumnOffset>
+		<endColumn>2</endColumn>
+		<endColumnOffset>531</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>3</zOrder>
+		<pictureIndex>3</pictureIndex>
+	</drawing>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>17</defaultFormatIndex>
+	<height>28</height>
+	<vgRows>28</vgRows>
+	<merge>
+		<r>1</r>
+		<c>1</c>
+		<h>3</h>
+	</merge>
+	<merge>
+		<r>1</r>
+		<c>2</c>
+		<h>1</h>
+		<w>7</w>
+	</merge>
+	<merge>
+		<r>3</r>
+		<c>2</c>
+		<h>1</h>
+		<w>7</w>
+	</merge>
+	<merge>
+		<r>9</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>11</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>16</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>18</r>
+		<c>1</c>
+		<h>2</h>
+		<w>8</w>
+	</merge>
+	<merge>
+		<r>22</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>24</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>24</r>
+		<c>3</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>26</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>26</r>
+		<c>3</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>-1</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>-1</r>
+		<c>3</c>
+		<w>1</w>
+	</merge>
+	<verticalUnmerge>
+		<r>1</r>
+		<c>1</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>2</r>
+		<c>1</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>3</r>
+		<c>1</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>4</r>
+		<c>1</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>11</r>
+		<c>1</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>14</r>
+		<c>3</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>16</r>
+		<c>3</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>22</r>
+		<c>1</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>Внимание1</name>
+		<drawingID>4</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>Внимание2</name>
+		<drawingID>5</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Заголовок</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>1</beginRow>
+			<endRow>4</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>НетДанных</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>18</beginRow>
+			<endRow>20</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Период</name>
+		<area>
+			<type>Columns</type>
+			<beginRow>-1</beginRow>
+			<endRow>-1</endRow>
+			<beginColumn>3</beginColumn>
+			<endColumn>4</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Показатель</name>
+		<area>
+			<type>Columns</type>
+			<beginRow>-1</beginRow>
+			<endRow>-1</endRow>
+			<beginColumn>0</beginColumn>
+			<endColumn>2</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>СтрокаВерхнийУровень</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>9</beginRow>
+			<endRow>9</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>СтрокаВерхнийУровеньРасшифровка</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>22</beginRow>
+			<endRow>22</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>СтрокаВерхнийУровеньСРисунком</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>14</beginRow>
+			<endRow>14</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>СтрокаНижнийУровень</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>13</beginRow>
+			<endRow>13</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>СтрокаНижнийУровеньВопрос</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>26</beginRow>
+			<endRow>26</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>СтрокаНижнийУровеньКурсив</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>24</beginRow>
+			<endRow>24</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>СтрокаНижнийУровеньСРисунком</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>16</beginRow>
+			<endRow>16</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>СтрокаСреднийУровень</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>11</beginRow>
+			<endRow>11</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Шапка</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>6</beginRow>
+			<endRow>7</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	</line>
+	<line width="2" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	</line>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentDrawingLineType">None</v8ui:style>
+	</line>
+	<font ref="style:LargeTextFont" height="14" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+	<font faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+	<font faceName="Arial" height="10" bold="false" italic="false" underline="true" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="8" bold="false" italic="true" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<format>
+		<width>15</width>
+	</format>
+	<format>
+		<width>61</width>
+	</format>
+	<format>
+		<width>205</width>
+	</format>
+	<format>
+		<width>166</width>
+	</format>
+	<format>
+		<width>25</width>
+	</format>
+	<format>
+		<width>31</width>
+	</format>
+	<format>
+		<width>38</width>
+	</format>
+	<format>
+		<width>33</width>
+	</format>
+	<format>
+		<font>0</font>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+	</format>
+	<format>
+		<font>1</font>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>1</font>
+		<border>0</border>
+		<width>61</width>
+		<backColor>#D6E5CB</backColor>
+	</format>
+	<format>
+		<width>95</width>
+	</format>
+	<format>
+		<font>1</font>
+		<border>0</border>
+		<width>152</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<backColor>#D6E5CB</backColor>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>1</font>
+	</format>
+	<format>
+		<font>1</font>
+		<border>0</border>
+		<width>61</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<protection>false</protection>
+		<hyperLink>false</hyperLink>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>1</font>
+		<border>0</border>
+		<width>171</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧДЦ=; ЧН=-</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<width>72</width>
+	</format>
+	<format>
+		<font>1</font>
+		<border>0</border>
+		<width>61</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<indent>2</indent>
+	</format>
+	<format>
+		<font>1</font>
+		<border>0</border>
+		<width>171</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧН=-</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>2</font>
+		<border>0</border>
+		<horizontalAlignment>Auto</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<indent>4</indent>
+	</format>
+	<format>
+		<font>2</font>
+		<border>0</border>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧН=-</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>1</font>
+		<leftBorder>1</leftBorder>
+		<topBorder>1</topBorder>
+		<bottomBorder>1</bottomBorder>
+		<borderColor>style:SpecialTextColor</borderColor>
+		<width>171</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧДЦ=; ЧН=-</v8:content>
+			</v8:item>
+		</format>
+		<hyperLink>true</hyperLink>
+	</format>
+	<format>
+		<font>1</font>
+		<topBorder>1</topBorder>
+		<rightBorder>1</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<borderColor>style:SpecialTextColor</borderColor>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧДЦ=; ЧН=-</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>2</font>
+		<border>0</border>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<indent>4</indent>
+	</format>
+	<format>
+		<leftBorder>1</leftBorder>
+		<topBorder>1</topBorder>
+		<bottomBorder>1</bottomBorder>
+		<borderColor>style:SpecialTextColor</borderColor>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧН=-</v8:content>
+			</v8:item>
+		</format>
+		<hyperLink>true</hyperLink>
+	</format>
+	<format>
+		<font>2</font>
+		<topBorder>1</topBorder>
+		<rightBorder>1</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<borderColor>style:SpecialTextColor</borderColor>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧН=-</v8:content>
+			</v8:item>
+		</format>
+		<picIndex>2</picIndex>
+		<pictureSizeMode>RealSize</pictureSizeMode>
+	</format>
+	<format>
+		<font>3</font>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+	</format>
+	<format>
+		<font>4</font>
+		<border>0</border>
+		<width>61</width>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<textColor>auto</textColor>
+		<fillType>Parameter</fillType>
+		<protection>true</protection>
+		<hyperLink>true</hyperLink>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>5</font>
+		<border>0</border>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<indent>4</indent>
+	</format>
+	<format>
+		<font>2</font>
+		<border>0</border>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧН=-</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<drawingBorder>2</drawingBorder>
+	</format>
+	<format>
+		<drawingBorder>2</drawingBorder>
+		<textColor>style:FieldSelectionBackColor</textColor>
+		<hyperLink>true</hyperLink>
+	</format>
+	<picture>
+		<index>0</index>
+		<picture t="false">Qk06GwAAAAAAADoAAAAoAAAAMAAAADAAAAABABgAAAAAAAAbAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAP//////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////+v2
++ubw9OLs8OHr7+Hr7+Hr7+Hr7+Hr7+Hr7+Hr7+Hr7+Hr7+Hr7+Hr7+Hr7+Hr7+Hr
+7+Hr7+Hr7+Hr7+Hr7+Hr7+Hr7+Hr7+Hr7+Hr7+Ls8Obw9Ov2+v//////////////
+/////////////////////////////////////////////////////////+34/Obw
+9Nnj59Lc38/Z3M/Z3M/Z3M/Z3M/Z3M/Z3M/Z3M/Z3M/Z3M/Z3M/Z3M/Z3M/Z3M/Z
+3M/Z3M/Z3M/Z3M/Z3M/Z3M/Z3M/Z3M/Z3M/Z3NLc39nj5+bw9P//////////////
+/////////////////////////////////////////////////////////5OEdpOE
+dpOEdpOEdpOEdpOEdpOEdpOEdpOEdpOEdpOEdpOEdpOEdpOEdpOEdpOEdpOEdpOE
+dpOEdpOEdpOEdpOEdpOEdpOEdpSFdpaHepeIe5iJe9Lc3+Pt8f//////////////
+/////////////////////////////////////////////////////////4x/cO/v
+7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v
+7+/v7+/v7+/v7+/v7+/v7+/v7/Dw8PT09Pr6+qKShtDa3eHr7///////////////
+/////////////////////////////////////////////+34/Obw9Nnj54F1adzc
+3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzb3Nzb29vc29zb29vb29va2tva
+2drZ2drZ2drZ2drZ2drZ2NnZ2Nzb2uTi4vT086OViNDa3eHr7///////////////
+/////////////////////////////////////////////5WGeJWGeJWGeJWGeJWG
+eJWGeJWGeJWGeJWGeJWGeJWGeJWGeJWGeJWGeJWGeJWGeJWGeJWGeJWGeJWGeJWG
+eJWGeJWGeJWGeJWGeJaHeZiJe5iJe9za2fHw8KKWidDa3eHr7///////////////
+/////////////////////////////////////////////5WHeP//////////////
+////////////////////////////////////////////////////////////////
+///////////////////////+/p+Qg9nY1u/u7qOWidDa3eHr7///////////////
+/////////////////////////////////////////////5aIev//////////////
+///////////////////////////9///9/f3//f/9/f39/f38/P38+vz6+vz6+vz6
++fz5+fz59/r59/n39vr39v/+/qCShtnX1O/u7qOXitDa3eHr7///////////////
+/////////////////////////////////////////////5eKe///////////////
+//////////////////////39/f39///9/f39/P38/P38+v38+vz6+vz6+fz6+fz6
++du7ufr399u5uPn29vn29P/+/qGThtjW1O/u7qSXitDa3eHr7///////////////
+/////////////////////////////////////////////5mKfP//////////////
+///////////////////9/f39/f/9/P39/P39/P38+vz6+vz6+fr6+fz5+fr59/r3
+9vn39/n29Pn29Pn29Pf28/7+/qGTh9jV0+7u7qSYi9Da3eHr7///////////////
+/////////////////////////////////////////////5qMfv//////////////
+///////////9/f///f39/P38/Pz8/Pz8+vz8+v38+fz6+fz5+fz59/r39/r39vn3
+9vn29Pn28/f29Pf08/f07/7+/qKUh9fU0+7u7qSZi9Da3eHr7///////////////
+/////////////////////////////////////////////5uOgP///////////+/f
+39++vt6+vvXt7d6+vv38/N69vd29u+zc2t27u9u7ufz5+du7udu7ufHo59u4t9u4
+t+jX1du4tujV0/bz7/bz7/7+/qKUiNfT0e7u7qWZjNDa3eHr7///////////////
+/////////////////////////////////////////////52Pgv////3//////f3/
+/f/9/f/8/fz9/P38/Pz6+vz6+vz6+fz6+fr5+fr39/r39vn39vr39vn29Pn28/f2
+8/f08fbz7/bz7/bx7vbx7v7+/qOViNbT0e7u7qaajdDa3eHr7///////////////
+/////////////////////////////////////////////6CRhf/////9/f39/e/d
+3N69ve3d3N29u927u929u/z6+tu7u+za2Nu5udu5uNu5t/Ho5du4t9m3tvf08dm3
+s9m2s+/i3+fT0PTv7vTv7P7+/qOVidXSz+7u7qaajtDa3eHr7///////////////
+/////////////////////////////////////////////6GThv////39/P39/fz8
+/P38+v38+vz6+fz6+fr6+fr59/r59/r39vn39Pn39Pn09Pn28/f08/fz8ffz7/bz
+7vbx7vbv7PTv7PTv6/Tu6f7+/aOWidXRzu7u7qebjtDa3eHr7///////////////
+/////////////////////////////////////////////6KViP////39/P38+uzc
+3N67u927u927u+zb2Nu7udu7udu5uPr29Nu4t/Hl5Nm3ttm3tffz79i1s+fT0Ne1
+stizsdezsOXRzvTs6fPs6f7+/aSWitTQze7u7qebj9Da3eHr7///////////////
+/////////////////////////////////////////////6SXi/////z8+v36+vz6
++vr5+fr59/r39/r39vr39vn39Pn39Pn28/n08/f08/bz8fbz7/bz7/bx7vbv7PTv
+7PTu6/Pu6fPs6PHs6PHr5v79/aWXi9PPze7u7qickNDa3eHr7///////////////
+/////////////////////////////////////////////6eZjf////z6+vr5+eza
+2t27u9u7udu5ufr39Nu5uNm4turV1dm3tvfz79i2s/Dk4Ni1sti1suXRztezsday
+sNaxr+POzOPOy/Hp5vHp5f79/aWYi9POzO7u7amdkdDa3eHr7///////////////
+/////////////////////////////////////////////6mbj/////r5+fr59/r3
+9/r59vr39Pn39Pn29Pn28/f08/f08ffz8fbz7/bx7vTv7PTv7PPu6/Tu6fTs6fPs
+6PHs6PHr5vHp5e/p5e/o4/79/aaYjNPNyu7u7aqdk9Da3eHr7///////////////
+/////////////////////////////////////////////6uek/////r39/r59uvY
+19u4t9u4ttm4ttu3ttm3tujV09i2s9i2ste1ste1stezsdazsOXQztaxrtaxrtWw
+rNWwrNWvrOHMx+7m4u7m4v79/aeZjdLNye7u7ayfldDa3eHr7///////////////
+/////////////////////////////////////////////6yhlf////r39vn39tu4
+t/f28/n08/f08/fz8fbz79i2s/bv7vbv7PTu7PPu6/Pu6fPu6NawrvHr5u/r5u/p
+5e/o4+/o49Kuqe7l4ezl4f79/aiajtHMyO7u7a2gltDa3eHr7///////////////
+/////////////////////////////////////////////7Chl/////n29Pf29Nm3
+tvf08ff08fbz79i2svTx7tizsfTv7PTu6/Tu6dayr9Wxr/Hs6NWvrPHr5dOvrO/o
+49Ouqe7m4tGsqe7l3+zj3v79/KqckNHLx+zr666hmM/Z3OHr7///////////////
+/////////////////////////////////////////////7Kkmv////f28/f089m3
+tfbz7/bx7vbx7vbx7vTv7NezsPPu6/Pu6fPs6PHr6PHp5vHp5dOvqu/o4+/o4u7m
+4e7m4ezl39Gsp+zj3uvi3P39/KuektDKxujo6K2hmNDa3eHr7///////////////
+/////////////////////////////////////////////7Onnf////f08/fz8efV
+0di1sti1sdezsdezsNezsOXQzNaxrtaxrtawrNWwrNWvrNOuquDLxtKuqdKsqdGs
+qdGqp9Gqpt7HwOvi3Onh2/v7+6yektLNx+bl5a6hmNDa3eLs8P//////////////
+/////////////////////////////////////////////7aqoP////fz7/bz7te1
+svbx7PTv7PPv6/Pu6fPu6daxrvHr5vHr5vHp5e/o4+/o4+/m4tKsqezl4e7j3+zj
+3uvi3Ovi3M+ppOnh2+nf2fb29ayflNTOyeLh4a2hl9Lc3+Xv8///////////////
+/////////////////////////////////////////////7irov////bx7vbv7tez
+sfTu69eysPPs6NaxrvHr5tWwrPHp5tOvrO7o49KuqtKsqezl4dGsp+zj3uvj3uvi
+3NCppOnh28+po+nf2Oje2PLy8ayek8zGwdHR0K+jmt/p7f//////////////////
+/////////////////////////////////////////////7uupf////bx7PTv7Nay
+sPPs6fPs6fHs6PHr5u/p5tOvrO/p4+7m4+7m4uzm4ezl4ezl39Gqpuvi3Ovi3Ovh
+2enf2enf2M6moujc1+Td1Orp6aqckr24ssTEw7KpoP//////////////////////
+/////////////////////////////////////////////7yxqP////Tu6/Pu6eXO
+zNawrtWwrNWwrNOvrNOuquDLx9KuqdKsqdGsqdGsp9GqptCppt7FwNCppM+no8+n
+os6nos6modvAvOLY0tPKw9XU1Kuek8G0p8O1qMO9tv//////////////////////
+/////////////////////////////////////////////7+zqv////Ps6fHs6PHr
+5vHr5u/r5u/o4+/o4+/m4u7m4e7l3+zl3+vj3+HZ1OHY0+HX0t/X0N/V0N7Uz97U
+ztzUztzTzM/GwMO6tL2zr8XFxK2hl+Li4s3Nzf//////////////////////////
+/////////////////////////////////////////////8G0rf////Hs6PHr5uHM
+ydWvrNOuqtOuqeDJxdKsqdGsp9GqptCpptCppsWhnLCPi6uempB1cZB0cJB0cI5z
+cI5yb45yb45ybqCZlKafmMbFxLuvpc7Ozvb5+fD7/v//////////////////////
+/////////////////////////////////////////////8S3sP////Hr5u/p4+/p
+4+7o4u7o4u7m4e7l4ezj3+zj3uzi3Ovi3Ovi29/V0OHTyd7PxtrNwtfJv9THu9HE
+uM7Btcy+scq7r8e5rcW4qsS2qcC3r/H09P//////////////////////////////
+/////////////////////////////////////////////8W6s////+/p5e/o4+DJ
+xtKsqeXX09Gqp+vj3tGpptCppd7Fvs+po8+nosagm+PWzf//////////////////
+//////////////Ly8uXl5c7Ozvb29P//////////////////////////////////
+/////////////////////////////////////////////8i8tP///+7m4u7m4e7l
+4ezl3+zj3uzj3uvi3Onh2+nh2enf2eje2Oje197TzubZ0f//////////////////
+//////////Ly8uXl5c7Ozvf29f//////////////////////////////////////
+/////////////////////////////////////////////8q+uP///+7m4ezl4ezl
+3+zi3uvi3Oni2+ni2enf2ejf2One2Oje1+bc19zSzOjb0///////////////////
+//////Ly8uXl5c7OzvPz8P//////////////////////////////////////////
+/////////////////////////////////////////////83Bu////+zj3uzj3m+0
+vG6zvG6zu26zvG6zu26zu26yu26yu26yum6yummqsuvd1v//////////////////
+//Ly8uXl5c7OzvPz8P//////////////////////////////////////////////
+/////////////////////////////////////////////8/DvP///+vj3Ovi226z
+vGrg6mrg6mrg6mrf6mrf6mrf6Wrf6Wnf6Wne6WTU3u3f2P////////////////Ly
+8uXl5c7OzvPz8P//////////////////////////////////////////////////
+/////////////////////////////////////////////9DFvv///+nh2+nf2W6z
+u2rg6mrf6mrf6Wrf6Wnf6Wrf6Wne6Wne6Gne6GXV3+/i2/////////////Ly8uXl
+5c7OzvPy8P//////////////////////////////////////////////////////
+/////////////////////////////////////////////9HGwf///+nh2enf2G6z
+u26yu26yum6yum6yum6yum6yum6yum6yum6yumior/Dj3P////////Ly8uXl5c7O
+zvPy8P//////////////////////////////////////////////////////////
+/////////////////////////////////////////////9PIw////+ne2Oje1+bc
+1ebc1eXb1OXZ0+XZ0+XZ0OPY0OPX0OLXz+LXzci9tfDj3P////Ly8uXl5c7OzvXz
+8f//////////////////////////////////////////////////////////////
+/////////////////////////////////////////////9bLxf///+be1+jb1ebc
+1ObZ1OXb0eXY0ePY0ePY0OPXz+LVzeLVzdzPx7+0rO/j3PLy8uXl5c7OzvHu7f//
+////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////9fMx////+bb1ebb1Obb
+0+XY0eXY0OPY0OPX0OPXz+LVzeHUzN/Sys7CurirpfDj3OXl5c7OzvHz8///////
+////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////9vQy/38/P38/P38/P38
+/P38/P38/P38/P38+/v6+fb19PLx8Orp6NTU1MXEw/Dj3M7Ozvb39///////////
+////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////+Xa1uTZ1eTZ1OTZ1OPY
+0uPX0uLX0uLW0uHV0N/TztvQzNnNyNXKxNPIwtHHwuPb1vf6+///////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+/////////////w==</picture>
+	</picture>
+	<picture>
+		<index>1</index>
+		<picture/>
+	</picture>
+	<picture>
+		<index>2</index>
+		<picture ref="v8ui:Help"/>
+	</picture>
+</document>
