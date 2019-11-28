@@ -331,9 +331,6 @@
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
-			<Save>
-				<Field>МассивСубконтоПДР</Field>
-			</Save>
 			<Settings xsi:type="v8:TypeDescription">
 				<v8:Type>cfg:CatalogRef.ПрочиеДоходыИРасходы</v8:Type>
 			</Settings>
