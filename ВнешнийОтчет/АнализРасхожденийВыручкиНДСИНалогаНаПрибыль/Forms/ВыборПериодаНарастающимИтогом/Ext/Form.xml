@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Выбор периода</v8:content>
+		</v8:item>
+	</Title>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<HorizontalAlign>Center</HorizontalAlign>
+	<Customizable>false</Customizable>
+	<CommandBarLocation>None</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаВыборГода" id="99">
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Horizontal</Group>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>0:b6be3fc0-323b-4460-9e37-911985c67a0f</BackColor>
+			<ExtendedTooltip name="ГруппаВыборГодаРасширеннаяПодсказка" id="100"/>
+			<ChildItems>
+				<Button name="ПерейтиНаГодНазад" id="90">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ПерейтиНаГодНазад</CommandName>
+					<Font ref="style:LargeTextFont" kind="StyleItem"/>
+					<ShapeRepresentation>WhenActive</ShapeRepresentation>
+					<ExtendedTooltip name="ПерейтиНаГодНазадРасширеннаяПодсказка" id="91"/>
+				</Button>
+				<LabelField name="ДатаНачалаГода" id="92">
+					<DataPath>ДатаНачалаГода</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<Format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ='yyyy "год"'</v8:content>
+						</v8:item>
+					</Format>
+					<Font ref="style:LargeTextFont" kind="StyleItem"/>
+					<ContextMenu name="ДатаНачалаГодаКонтекстноеМеню" id="93"/>
+					<ExtendedTooltip name="ДатаНачалаГодаРасширеннаяПодсказка" id="94"/>
+				</LabelField>
+				<Button name="ПерейтиНаГодВперед" id="95">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ПерейтиНаГодВперед</CommandName>
+					<Font ref="style:LargeTextFont" kind="StyleItem"/>
+					<ShapeRepresentation>WhenActive</ShapeRepresentation>
+					<ExtendedTooltip name="ПерейтиНаГодВпередРасширеннаяПодсказка" id="96"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ВыборПериода" id="174">
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ВыборПериодаРасширеннаяПодсказка" id="175"/>
+			<ChildItems>
+				<Button name="ВыбратьКвартал" id="172">
+					<Type>UsualButton</Type>
+					<HorizontalStretch>true</HorizontalStretch>
+					<CommandName>Form.Command.ВыбратьКвартал1</CommandName>
+					<BackColor>0:215cf0e2-0a26-4a5d-96c2-d6b2c46b4508</BackColor>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>квартал</v8:content>
+						</v8:item>
+					</Title>
+					<ShapeRepresentation>WhenActive</ShapeRepresentation>
+					<ExtendedTooltip name="ВыбратьКварталРасширеннаяПодсказка" id="173"/>
+				</Button>
+				<Button name="ВыбратьПолугодие1" id="133">
+					<Type>UsualButton</Type>
+					<HorizontalStretch>true</HorizontalStretch>
+					<CommandName>Form.Command.ВыбратьПолугодие1</CommandName>
+					<BackColor>0:215cf0e2-0a26-4a5d-96c2-d6b2c46b4508</BackColor>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>полугодие</v8:content>
+						</v8:item>
+					</Title>
+					<ShapeRepresentation>WhenActive</ShapeRepresentation>
+					<ExtendedTooltip name="ВыбратьПолугодие1РасширеннаяПодсказка" id="134"/>
+				</Button>
+				<Button name="Выбрать9Месяцев" id="137">
+					<Type>UsualButton</Type>
+					<HorizontalStretch>true</HorizontalStretch>
+					<CommandName>Form.Command.Выбрать9Месяцев</CommandName>
+					<BackColor>0:215cf0e2-0a26-4a5d-96c2-d6b2c46b4508</BackColor>
+					<ShapeRepresentation>WhenActive</ShapeRepresentation>
+					<ExtendedTooltip name="Выбрать9МесяцевРасширеннаяПодсказка" id="138"/>
+				</Button>
+				<Button name="ВыбратьГод" id="139">
+					<Type>UsualButton</Type>
+					<HorizontalStretch>true</HorizontalStretch>
+					<CommandName>Form.Command.ВыбратьГод</CommandName>
+					<BackColor>0:215cf0e2-0a26-4a5d-96c2-d6b2c46b4508</BackColor>
+					<ShapeRepresentation>WhenActive</ShapeRepresentation>
+					<ExtendedTooltip name="ВыбратьГодРасширеннаяПодсказка" id="140"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="НачалоПериода" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Начало периода</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КонецПериода" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конец периода</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаНачалаГода" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата начала года</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПерейтиНаГодНазад" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>&lt;</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перейти на год назад</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПерейтиНаГодНазад</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ПерейтиНаГодВперед" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>&gt;</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перейти на год вперед</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПерейтиНаГодВперед</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ВыбратьКвартал1" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1 квартал</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать 1 квартал</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыбратьКвартал1</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ВыбратьПолугодие1" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1 полугодие</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать 1 полугодие</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыбратьПолугодие1</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="Выбрать9Месяцев" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>9 месяцев</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать 9 месяцев</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Выбрать9Месяцев</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ВыбратьГод" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>год</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать год</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыбратьГод</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="НачалоПериода">
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="КонецПериода">
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Parameter>
+	</Parameters>
+</Form>
