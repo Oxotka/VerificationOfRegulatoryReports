@@ -40,7 +40,7 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
 			<NamePrefix>Отчет_</NamePrefix>
-			<ConfigurationExtensionCompatibilityMode>Version8_3_14</ConfigurationExtensionCompatibilityMode>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_12</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Простые решения</Vendor>
 			<Version>1.1</Version>
@@ -49,6 +49,7 @@
 			<Copyright/>
 			<VendorInformationAddress/>
 			<ConfigurationInformationAddress/>
+			<CompatibilityMode>Version8_3_12</CompatibilityMode>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
