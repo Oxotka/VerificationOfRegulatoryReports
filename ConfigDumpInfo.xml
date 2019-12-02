@@ -8,7 +8,9 @@
 		<Metadata name="Catalog.ПрочиеДоходыИРасходы.Form.ФормаЭлемента" id="0aa3a461-bdb9-44db-8253-2ec4ef99176e" configVersion="368f5d2b7fe9d6cb0a745c26da75d6592c68c586"/>
 		<Metadata name="Catalog.ПрочиеДоходыИРасходы.Form.ФормаЭлемента.Form" id="0aa3a461-bdb9-44db-8253-2ec4ef99176e.0" configVersion="ec2228021ef71b1fea18d794708d2707f828a653"/>
 		<Metadata name="Catalog.ПрочиеДоходыИРасходы.ManagerModule" id="d471a672-1a08-4441-9241-d3ca6f7a5e4a.3" configVersion="4a8413729ce5cd19be14077ebbf630f2895bb9e2"/>
-		<Metadata name="Configuration.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль" id="dc1c6277-70a5-4106-bf9a-f58da377dd21" configVersion="a814eef9319d5106d950734ce7221b8f5495e86a"/>
+		<Metadata name="CommonPicture.Отчет_Внимание" id="8d34bfb5-52db-410b-b8f2-507ffb7ae79a" configVersion="ca7483e2e84bc3cdf7486ac841184127d9346c3f"/>
+		<Metadata name="CommonPicture.Отчет_Внимание.Picture" id="8d34bfb5-52db-410b-b8f2-507ffb7ae79a.0" configVersion="4fa0a82994065e31c3e6d914cb0e23f0dc872730"/>
+		<Metadata name="Configuration.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль" id="dc1c6277-70a5-4106-bf9a-f58da377dd21" configVersion="684eec87bf657afcbb80e5eaae536274afc4f032"/>
 		<Metadata name="Language.Русский" id="436558c8-34ed-4e81-acf0-1720551f9f72" configVersion="0d0ed8ef07c5da1e36f9d8ae2d97b6924a6b30cc"/>
 		<Metadata name="Report.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль" id="47f8dfc6-796b-48ab-9d3a-d74c37f217da" configVersion="15cf2c0399d0018152f9c2500ff1dfe14cc3af20">
 			<Metadata name="Report.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль.Command.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль" id="f3d63c17-8b10-45af-b73d-3b8ee959ee01"/>
@@ -32,7 +34,7 @@
 		<Metadata name="Report.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль.Help" id="47f8dfc6-796b-48ab-9d3a-d74c37f217da.1" configVersion="cb3d1dc373c7bf8a7416eceeb45e59b2e5d8f824"/>
 		<Metadata name="Report.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль.ObjectModule" id="47f8dfc6-796b-48ab-9d3a-d74c37f217da.0" configVersion="db90e4087f4f822d57acbd69da36a1881f769d8a"/>
 		<Metadata name="Report.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль.Template.МакетОтчета" id="9e487796-e7a5-42b3-b499-7226e2c4957d" configVersion="b93101b2cab4344fb0072ed49b2ee13fc42b96ff"/>
-		<Metadata name="Report.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль.Template.МакетОтчета.Template" id="9e487796-e7a5-42b3-b499-7226e2c4957d.0" configVersion="9d13c26ad78cb150ade17583e6a94ac4a8c49cc3"/>
+		<Metadata name="Report.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль.Template.МакетОтчета.Template" id="9e487796-e7a5-42b3-b499-7226e2c4957d.0" configVersion="cb1cc66d5e5353a8b177bb66564abe9221f4a345"/>
 		<Metadata name="Subsystem.Отчеты" id="68cc2cba-6e62-426e-b2b3-c04145b949b8" configVersion="ae5f811aecbe2adde64079cb948025e95fa6be9b"/>
 		<Metadata name="Subsystem.Отчеты.Subsystem.АнализУчета" id="3a6c4f01-2357-4a3b-8bcb-c669dcd1a8da" configVersion="ed7de0f94197820c575e786073fa75364f152400"/>
 		<Metadata name="Subsystem.Отчеты.Subsystem.АнализУчета.CommandInterface" id="3a6c4f01-2357-4a3b-8bcb-c669dcd1a8da.1" configVersion="23d3f0f2d6965b9ecc4e91adfcd9b18f199b0c07"/>

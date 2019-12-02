@@ -53,6 +53,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Отчеты</Subsystem>
+			<CommonPicture>Отчет_Внимание</CommonPicture>
 			<Catalog>Организации</Catalog>
 			<Catalog>ПрочиеДоходыИРасходы</Catalog>
 			<Report>АнализРасхожденийВыручкиНДСИНалогаНаПрибыль</Report>

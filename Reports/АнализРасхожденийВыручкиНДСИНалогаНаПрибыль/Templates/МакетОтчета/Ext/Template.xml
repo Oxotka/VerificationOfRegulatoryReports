@@ -61,12 +61,6 @@
 		</columnsItem>
 	</columns>
 	<rowsItem>
-		<index>0</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
 		<index>1</index>
 		<row>
 			<c>
@@ -287,12 +281,6 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>15</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
 		<index>16</index>
 		<row>
 			<c>
@@ -315,12 +303,6 @@
 					<f>26</f>
 				</c>
 			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>17</index>
-		<row>
-			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -366,12 +348,6 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>23</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
 		<index>24</index>
 		<row>
 			<c>
@@ -387,12 +363,6 @@
 					<f>30</f>
 				</c>
 			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>25</index>
-		<row>
-			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -427,7 +397,7 @@
 		<endColumnOffset>147</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>1</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<drawing>
@@ -444,7 +414,7 @@
 		<endColumnOffset>53</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Proportionally</pictureSize>
-		<zOrder>2</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>2</pictureIndex>
 	</drawing>
 	<drawing>
@@ -462,8 +432,25 @@
 		<endColumnOffset>531</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
-		<zOrder>3</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>3</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>7</id>
+		<formatIndex>31</formatIndex>
+		<beginRow>16</beginRow>
+		<beginRowOffset>3</beginRowOffset>
+		<endRow>16</endRow>
+		<endRowOffset>39</endRowOffset>
+		<beginColumn>4</beginColumn>
+		<beginColumnOffset>14</beginColumnOffset>
+		<endColumn>4</endColumn>
+		<endColumnOffset>56</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Proportionally</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>2</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>17</defaultFormatIndex>
@@ -589,6 +576,10 @@
 	<namedItem xsi:type="NamedItemDrawing">
 		<name>Внимание2</name>
 		<drawingID>5</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>Внимание3</name>
+		<drawingID>7</drawingID>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Заголовок</name>
@@ -804,6 +795,7 @@
 		<border>0</border>
 		<width>171</width>
 		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
 		<fillType>Parameter</fillType>
 		<format>
 			<v8:item>
@@ -828,6 +820,7 @@
 		<border>0</border>
 		<width>171</width>
 		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
 		<fillType>Parameter</fillType>
 		<format>
 			<v8:item>
@@ -847,6 +840,7 @@
 		<font>2</font>
 		<border>0</border>
 		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
 		<fillType>Parameter</fillType>
 		<format>
 			<v8:item>
@@ -863,6 +857,7 @@
 		<borderColor>style:SpecialTextColor</borderColor>
 		<width>171</width>
 		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
 		<fillType>Parameter</fillType>
 		<format>
 			<v8:item>
@@ -899,6 +894,7 @@
 		<bottomBorder>1</bottomBorder>
 		<borderColor>style:SpecialTextColor</borderColor>
 		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
 		<fillType>Parameter</fillType>
 		<format>
 			<v8:item>
@@ -922,8 +918,8 @@
 				<v8:content>ЧЦ=15; ЧН=-</v8:content>
 			</v8:item>
 		</format>
-		<picIndex>2</picIndex>
-		<pictureSizeMode>RealSize</pictureSizeMode>
+		<picIndex>4</picIndex>
+		<pictureSizeMode>Proportionally</pictureSizeMode>
 	</format>
 	<format>
 		<font>3</font>
@@ -935,7 +931,7 @@
 		<border>0</border>
 		<width>61</width>
 		<horizontalAlignment>Justify</horizontalAlignment>
-		<textColor>auto</textColor>
+		<textColor>#1C55AE</textColor>
 		<fillType>Parameter</fillType>
 		<protection>true</protection>
 		<hyperLink>true</hyperLink>
@@ -1118,10 +1114,14 @@ zvPy8P//////////////////////////////////////////////////////////
 	</picture>
 	<picture>
 		<index>1</index>
-		<picture/>
+		<picture ref="v8ui:Отчет_Внимание"/>
 	</picture>
 	<picture>
 		<index>2</index>
 		<picture ref="v8ui:Help"/>
+	</picture>
+	<picture>
+		<index>3</index>
+		<picture/>
 	</picture>
 </document>
