@@ -10,7 +10,7 @@
 		<Metadata name="Catalog.ПрочиеДоходыИРасходы.ManagerModule" id="d471a672-1a08-4441-9241-d3ca6f7a5e4a.3" configVersion="4a8413729ce5cd19be14077ebbf630f2895bb9e2"/>
 		<Metadata name="CommonPicture.Отчет_Внимание" id="8d34bfb5-52db-410b-b8f2-507ffb7ae79a" configVersion="ca7483e2e84bc3cdf7486ac841184127d9346c3f"/>
 		<Metadata name="CommonPicture.Отчет_Внимание.Picture" id="8d34bfb5-52db-410b-b8f2-507ffb7ae79a.0" configVersion="4fa0a82994065e31c3e6d914cb0e23f0dc872730"/>
-		<Metadata name="Configuration.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль" id="dc1c6277-70a5-4106-bf9a-f58da377dd21" configVersion="684eec87bf657afcbb80e5eaae536274afc4f032"/>
+		<Metadata name="Configuration.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль" id="dc1c6277-70a5-4106-bf9a-f58da377dd21" configVersion="dd69a9f1741808280cf3d22d22a15e903f3577a2"/>
 		<Metadata name="Language.Русский" id="436558c8-34ed-4e81-acf0-1720551f9f72" configVersion="0d0ed8ef07c5da1e36f9d8ae2d97b6924a6b30cc"/>
 		<Metadata name="Report.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль" id="47f8dfc6-796b-48ab-9d3a-d74c37f217da" configVersion="15cf2c0399d0018152f9c2500ff1dfe14cc3af20">
 			<Metadata name="Report.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль.Command.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль" id="f3d63c17-8b10-45af-b73d-3b8ee959ee01"/>
