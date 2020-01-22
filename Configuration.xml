@@ -28,11 +28,11 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>АнализРасхожденийВыручкиНДСИНалогаНаПрибыль</Name>
+			<Name>ПР_АнализРасхожденийВыручкиНДСИНалогаНаПрибыль</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Анализ расхождений выручки НДС и Налога на прибыль</v8:content>
+					<v8:content>БП:Анализ расхождений выручки НДС и Налога на прибыль</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment>Отчет позволяет выявить и пояснить расхождения в показателях декларации по Налогу на прибыль («Доходы от реазизации» + «Внереализационные доходы») и налоговой базой по НДС за год.</Comment>
@@ -43,7 +43,7 @@
 			<ConfigurationExtensionCompatibilityMode>Version8_3_12</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Простые решения (https://1eska.ru/)</Vendor>
-			<Version>1.13</Version>
+			<Version>1.14</Version>
 			<BriefInformation/>
 			<DetailedInformation/>
 			<Copyright/>
