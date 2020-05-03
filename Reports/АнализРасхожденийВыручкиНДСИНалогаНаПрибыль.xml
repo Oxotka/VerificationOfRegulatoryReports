@@ -40,6 +40,7 @@
 			<Form>ФормаАктуальныеДанные</Form>
 			<Form>ФормаРазница</Form>
 			<Form>ФормаПодсказкиПоказателя</Form>
+			<Form>ФормаРасшифровкиУчетныхДанных</Form>
 			<Template>МакетОтчета</Template>
 			<Command uuid="f3d63c17-8b10-45af-b73d-3b8ee959ee01">
 				<Properties>
