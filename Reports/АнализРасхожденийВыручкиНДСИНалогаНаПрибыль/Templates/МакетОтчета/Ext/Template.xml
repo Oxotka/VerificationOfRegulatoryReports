@@ -169,19 +169,19 @@
 			</c>
 			<c>
 				<c>
-					<f>3</f>
+					<f>16</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>17</f>
 					<parameter>ЗначениеПоказателя</parameter>
 				</c>
 			</c>
 			<c>
 				<i>6</i>
 				<c>
-					<f>17</f>
+					<f>18</f>
 				</c>
 			</c>
 			<c>
@@ -214,18 +214,18 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>18</f>
+					<f>19</f>
 					<parameter>Показатель</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>3</f>
+					<f>16</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>20</f>
 					<parameter>ЗначениеПоказателя</parameter>
 				</c>
 			</c>
@@ -255,14 +255,14 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>20</f>
+					<f>21</f>
 					<parameter>Показатель</parameter>
 				</c>
 			</c>
 			<c>
 				<i>3</i>
 				<c>
-					<f>21</f>
+					<f>22</f>
 					<parameter>ЗначениеПоказателя</parameter>
 				</c>
 			</c>
@@ -274,14 +274,14 @@
 			<c>
 				<i>3</i>
 				<c>
-					<f>22</f>
+					<f>23</f>
 					<parameter>ЗначениеПоказателя</parameter>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>24</f>
 				</c>
 			</c>
 		</row>
@@ -298,21 +298,21 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>24</f>
+					<f>25</f>
 					<parameter>Показатель</parameter>
 				</c>
 			</c>
 			<c>
 				<i>3</i>
 				<c>
-					<f>25</f>
+					<f>26</f>
 					<parameter>ЗначениеПоказателя</parameter>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>26</f>
+					<f>27</f>
 				</c>
 			</c>
 		</row>
@@ -323,14 +323,14 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>20</f>
+					<f>21</f>
 					<parameter>Показатель</parameter>
 				</c>
 			</c>
 			<c>
 				<i>3</i>
 				<c>
-					<f>27</f>
+					<f>28</f>
 					<parameter>ЗначениеПоказателя</parameter>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
@@ -349,7 +349,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>28</f>
+					<f>29</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -373,14 +373,14 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>29</f>
+					<f>30</f>
 					<parameter>Показатель</parameter>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>3</f>
+					<f>16</f>
 				</c>
 			</c>
 		</row>
@@ -397,14 +397,14 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>30</f>
+					<f>31</f>
 					<parameter>Показатель</parameter>
 				</c>
 			</c>
 			<c>
 				<i>3</i>
 				<c>
-					<f>31</f>
+					<f>32</f>
 				</c>
 			</c>
 		</row>
@@ -421,14 +421,14 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>24</f>
+					<f>25</f>
 					<parameter>Показатель</parameter>
 				</c>
 			</c>
 			<c>
 				<i>3</i>
 				<c>
-					<f>31</f>
+					<f>32</f>
 				</c>
 			</c>
 		</row>
@@ -436,7 +436,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>2</id>
-		<formatIndex>32</formatIndex>
+		<formatIndex>33</formatIndex>
 		<beginRow>1</beginRow>
 		<beginRowOffset>18</beginRowOffset>
 		<endRow>4</endRow>
@@ -453,7 +453,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>5</id>
-		<formatIndex>32</formatIndex>
+		<formatIndex>33</formatIndex>
 		<beginRow>14</beginRow>
 		<beginRowOffset>9</beginRowOffset>
 		<endRow>14</endRow>
@@ -470,7 +470,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>6</id>
-		<formatIndex>33</formatIndex>
+		<formatIndex>34</formatIndex>
 		<detailParameter>ПодсказкаПоказателя</detailParameter>
 		<beginRow>27</beginRow>
 		<beginRowOffset>0</beginRowOffset>
@@ -488,7 +488,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>7</id>
-		<formatIndex>32</formatIndex>
+		<formatIndex>33</formatIndex>
 		<beginRow>16</beginRow>
 		<beginRowOffset>3</beginRowOffset>
 		<endRow>16</endRow>
@@ -503,7 +503,7 @@
 		<pictureIndex>2</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>17</defaultFormatIndex>
+	<defaultFormatIndex>18</defaultFormatIndex>
 	<height>29</height>
 	<vgRows>29</vgRows>
 	<merge>
@@ -803,7 +803,7 @@
 		<width>61</width>
 	</format>
 	<format>
-		<width>205</width>
+		<width>225</width>
 	</format>
 	<format>
 		<width>166</width>
@@ -859,6 +859,9 @@
 		<protection>false</protection>
 		<hyperLink>false</hyperLink>
 		<indent>0</indent>
+	</format>
+	<format>
+		<width>205</width>
 	</format>
 	<format>
 		<font>1</font>
@@ -1024,7 +1027,7 @@
 	<format>
 		<font>5</font>
 		<border>0</border>
-		<horizontalAlignment>Justify</horizontalAlignment>
+		<horizontalAlignment>Left</horizontalAlignment>
 		<fillType>Parameter</fillType>
 		<indent>4</indent>
 	</format>
@@ -1202,7 +1205,7 @@ zvPy8P//////////////////////////////////////////////////////////
 	</picture>
 	<picture>
 		<index>2</index>
-		<picture ref="v8ui:Help"/>
+		<picture ref="v8ui:FormHelp"/>
 	</picture>
 	<picture>
 		<index>3</index>
