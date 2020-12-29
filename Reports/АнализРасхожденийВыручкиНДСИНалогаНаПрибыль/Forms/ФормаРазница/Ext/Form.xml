@@ -18,20 +18,20 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>&lt;fontsize 11&gt;&lt;color #000000&gt;Возможные причины возникновения разницы:&lt;/&gt;&lt;/&gt;
-● &lt;fontsize 11&gt;Не настроен перечень прочих доходов, не облагаемых НДС (меню “Настройки”).&lt;/&gt;
-&lt;fontsize 11&gt;Решение: Заполните перечь прочих доходов в меню "Настройки"&lt;/&gt;
-
-● &lt;fontsize 11&gt;Данные регламентированных отчетов не совпадают с учетными данными &lt;/&gt;
-&lt;fontsize 11&gt;Решение: Перезаполните регламентированные отчеты с повышением признака корректировки&lt;/&gt;
-
-● &lt;fontsize 11&gt;У вас специфическая учетная ситуация, которую наш отчет еще не умеет распознавать. &lt;/&gt;
-&lt;fontsize 11&gt;Решение: Если у вас есть подозрения какая ситуация не обрабатывается, напишите нам пожалуйста, в поддержку&lt;/&gt;
-
-● &lt;fontsize 11&gt;У вас ошибка в учете, которую сможет выявить только специалист-консультант по 1С.&lt;/&gt;
-&lt;fontsize 11&gt;Решение: &lt;/&gt;&lt;fontsize 11&gt;Наши специалисты могут помочь вам найти ошибку, для этого обратитесь к нам в поддержку за подробностями.&lt;/&gt;
-
-&lt;fontsize 11&gt;&lt;color #000000&gt;Посмотрите видео-инструкцию по работе с отчетом (&lt;/&gt;&lt;/&gt;&lt;link https://www.google.com/url?q=https://youtu.be/4YZ5bljQf4g&amp;sa=D&amp;ust=1566298782194000&amp;usg=AFQjCNGopRG2GKqHpMehn9LXxga4ltemHA&gt;&lt;fontsize 11&gt;&lt;color #1a73e8&gt;https://youtu.be/4YZ5bljQf4g&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;fontsize 11&gt;&lt;color #000000&gt;)&lt;/&gt;&lt;/&gt;
-&lt;link mailto:mors@1eska.ru&gt;&lt;fontsize 12&gt;Напишите нам в поддержку&lt;/&gt;&lt;/&gt;</v8:content>
+● &lt;fontsize 11&gt;Не настроен перечень прочих доходов, не облагаемых НДС (меню “Настройки”).
+&lt;/&gt;&lt;fontsize 11&gt;Решение: Заполните перечь прочих доходов в меню "Настройки"
+&lt;/&gt;
+● &lt;fontsize 11&gt;Данные регламентированных отчетов не совпадают с учетными данными 
+&lt;/&gt;&lt;fontsize 11&gt;Решение: Перезаполните регламентированные отчеты с повышением признака корректировки
+&lt;/&gt;
+● &lt;fontsize 11&gt;У вас специфическая учетная ситуация, которую наш отчет еще не умеет распознавать. 
+&lt;/&gt;&lt;fontsize 11&gt;Решение: Если у вас есть подозрения какая ситуация не обрабатывается, напишите нам пожалуйста, в поддержку
+&lt;/&gt;
+● &lt;fontsize 11&gt;У вас ошибка в учете, которую сможет выявить только специалист-консультант по 1С.
+&lt;/&gt;&lt;fontsize 11&gt;Решение: &lt;/&gt;&lt;fontsize 11&gt;Наши специалисты могут помочь вам найти ошибку, для этого обратитесь к нам в поддержку за подробностями.
+&lt;/&gt;
+&lt;fontsize 11&gt;&lt;color #000000&gt;Посмотрите видео-инструкцию по работе с отчетом (&lt;/&gt;&lt;/&gt;&lt;link https://www.google.com/url?q=https://youtu.be/4YZ5bljQf4g&amp;sa=D&amp;ust=1566298782194000&amp;usg=AFQjCNGopRG2GKqHpMehn9LXxga4ltemHA&gt;&lt;fontsize 11&gt;&lt;color #1A73E8&gt;https://youtu.be/4YZ5bljQf4g&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;fontsize 11&gt;&lt;color #000000&gt;)
+&lt;/&gt;&lt;/&gt;&lt;link mailto:mors@1eska.ru&gt;&lt;fontsize 12&gt;Напишите нам поддержку&lt;/&gt;&lt;/&gt;</v8:content>
 				</v8:item>
 			</Title>
 			<ContextMenu name="ДекорацияПодсказкаКонтекстноеМеню" id="2"/>
