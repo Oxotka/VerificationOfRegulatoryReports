@@ -1,0 +1,24 @@
+{    
+    "КаталогФич": "$workspaceRoot/features",
+
+    "ВыполнитьСценарии" : true,
+    "ИнтервалВыполненияШага" : " 0.1 ",
+    "ЗавершитьРаботуСистемы" : true,
+    "ЗакрытьTestClientПослеЗапускаСценариев" : true,
+
+    "ДелатьОтчетВФорматеАллюр": true,
+    "КаталогOutputAllureБазовый": "$workspaceRoot/allure/allure-results",
+   
+
+    "ДелатьЛогВыполненияСценариевВТекстовыйФайл": true,
+    "ИмяФайлаЛогВыполненияСценариев": "$workspaceRoot/vanessaonline.txt",
+
+    "ВыгружатьСтатусВыполненияСценариевВФайл": "Истина",
+    "ПутьКФайлуДляВыгрузкиСтатусаВыполненияСценариев": "$workspaceRoot/Build/BuildStatus.log",
+
+    "ДелатьСкриншотПриВозникновенииОшибки": true,
+	"КаталогOutputСкриншоты": "$workspaceRoot/allure/screenshots_temporary_dir",
+	"КомандаСделатьСкриншот": "\"C:\\Program Files (x86)\\IrfanView\\i_view32.exe\" /capture=1 /convert="
+
+ }
+ 
