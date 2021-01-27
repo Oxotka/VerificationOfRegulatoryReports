@@ -38,7 +38,7 @@
 		<Metadata name="Report.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль.Form.ФормаРасшифровкиУчетныхДанных" id="e161b06a-98e8-4b07-ae29-35612e4d8c6e" configVersion="9a8dfd478d5c47646ba5ccc57f64b8c02531844b"/>
 		<Metadata name="Report.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль.Form.ФормаРасшифровкиУчетныхДанных.Form" id="e161b06a-98e8-4b07-ae29-35612e4d8c6e.0" configVersion="6359de81d4fc66cdcfc145d7d6368898e2672ea7"/>
 		<Metadata name="Report.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль.Help" id="47f8dfc6-796b-48ab-9d3a-d74c37f217da.1" configVersion="cb3d1dc373c7bf8a7416eceeb45e59b2e5d8f824"/>
-		<Metadata name="Report.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль.ObjectModule" id="47f8dfc6-796b-48ab-9d3a-d74c37f217da.0" configVersion="2358317be54ad3accbba91c4cc545a5cb7a3d6d7"/>
+		<Metadata name="Report.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль.ObjectModule" id="47f8dfc6-796b-48ab-9d3a-d74c37f217da.0" configVersion="0fb3e2a2ca9529d3331d443ef960cfe8c9396644"/>
 		<Metadata name="Report.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль.Template.МакетОтчета" id="9e487796-e7a5-42b3-b499-7226e2c4957d" configVersion="b93101b2cab4344fb0072ed49b2ee13fc42b96ff"/>
 		<Metadata name="Report.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль.Template.МакетОтчета.Template" id="9e487796-e7a5-42b3-b499-7226e2c4957d.0" configVersion="db8ae58a6b240ac3363240e52582b918a42a8cf4"/>
 		<Metadata name="Subsystem.Отчеты" id="68cc2cba-6e62-426e-b2b3-c04145b949b8" configVersion="ae5f811aecbe2adde64079cb948025e95fa6be9b"/>
